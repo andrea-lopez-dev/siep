@@ -145,7 +145,7 @@ El sistema cuenta con un módulo de reportes robusto que utiliza la librería TC
 
 ## 📚 Documentación
 
-Puedes consultar los manuales del sistema en la carpeta `docs/manuals/`:
+Puedes consultar los manuales del sistema en la carpeta **`docs/manuals/`**:
 
 *   📄 [Manual de Usuario](docs/manuals/MANUAL_DE_USUARIO_FINAL.pdf)
   
@@ -168,7 +168,7 @@ cd siep
 
 **2. Configurar el entorno (Base de Datos)**
 
-Edita el archivo config/Conexion.php (o config/global.php) con las credenciales de MySQL:
+Edita el archivo **config/Conexion.php (o config/global.php)** con las credenciales de MySQL:
 
 ```bash
 ini
@@ -181,7 +181,7 @@ DB_PASSWORD=
 
 **3. Importar la base de datos**
 
-Importa el archivo siep.sql (ubicado en la raíz del proyecto) usando phpMyAdmin o la línea de comandos:
+Importa el archivo **siep.sql** (ubicado en la raíz del proyecto) usando phpMyAdmin o la línea de comandos:
 
 ```bash
 mysql -u root -p mi_tienda < "siep.sql"
@@ -189,7 +189,7 @@ mysql -u root -p mi_tienda < "siep.sql"
 
 **4. Ejecutar el servidor local**
 
-Coloca la carpeta del proyecto en htdocs (XAMPP) o www (WAMP) y accede desde el navegador:
+Coloca la carpeta del proyecto en htdocs **(XAMPP) o www (WAMP)** y accede desde el navegador:
 
 ```bash
 http://localhost/siep/
