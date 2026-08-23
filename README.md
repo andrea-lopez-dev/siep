@@ -96,9 +96,9 @@
 └── README.md                     # Documentación del proyecto
 ```
 
-## ⚙️ Características Clave
+# ⚙️ Características Clave
 
-# 🔐 Módulos Administrativos (Dashboard)
+## 🔐 Módulos Administrativos (Dashboard)
 <table align="center"> <thead> <tr> <th>Módulo</th> <th>Descripción</th> <th>Funcionalidades</th> </tr> </thead> <tbody> <tr> <td><strong>Escritorio</strong></td> <td>Panel de control principal</td> <td>Métricas de compras/ventas, gráficos de los últimos 10 días y 12 meses</td> </tr> <tr> <td><strong>Productos</strong></td> <td>Gestión del catálogo de productos</td> <td>CRUD completo, generador de códigos de barras, control de stock, precios e imágenes</td> </tr> <tr> <td><strong>Categorías</strong></td> <td>Clasificación de productos</td> <td>CRUD, descripción, estado activo/inactivo</td> </tr> <tr> <td><strong>Proveedores</strong></td> <td>Gestión de suministradores</td> <td>CRUD, datos fiscales, contacto, estado activo/inactivo</td> </tr> <tr> <td><strong>Ingresos (Compras)</strong></td> <td>Registro de mercancía comprada</td> <td>CRUD, análisis de costos, <strong>cálculo de IVA</strong>, impuestos, control de documentos fiscales (boleta, factura, ticket)</td> </tr> <tr> <td><strong>Clientes</strong></td> <td>Gestión de compradores</td> <td>CRUD, tipos de documento, dirección, teléfono, email</td> </tr> <tr> <td><strong>Ventas</strong></td> <td>Gestión de transacciones</td> <td>CRUD, análisis de descuentos, <strong>cálculo de IVA</strong>, impuestos, asociación a clientes</td> </tr> <tr> <td><strong>Usuarios</strong></td> <td>Gestión de administradores</td> <td>CRUD, asignación de permisos, control de accesos a módulos</td> </tr> <tr> <td><strong>Permisos</strong></td> <td>Control de roles y accesos</td> <td>CRUD, asignación de permisos específicos a cada usuario (RBAC)</td> </tr> <tr> <td><strong>Consultas de Compras</strong></td> <td>Reportes de compras</td> <td>Filtrado por fechas, exportación a PDF/Excel, reportes de ingresos</td> </tr> <tr> <td><strong>Consultas de Ventas</strong></td> <td>Reportes de ventas</td> <td>Filtrado por fechas y clientes, exportación a PDF/Excel</td> </tr> </tbody> </table>
 
 ## 🛍️ Módulo Cliente (E-commerce)
@@ -114,7 +114,7 @@
 *  **Contacto Directo:** Enlace a WhatsApp para consultas y compras.
 
 
-# 📄 Documentos Generados con TCPDF
+## 📄 Documentos Generados con TCPDF
 
 El sistema cuenta con un módulo de reportes robusto que utiliza la librería TCPDF para generar documentos oficiales y de gestión:
 
