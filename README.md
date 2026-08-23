@@ -1,7 +1,11 @@
 # 🛒 SIEP - Sistema de Información E-commerce para Papelería ISA&CRIS
 
 <p align="center">
-  <img src="docs/media/logo_siep.png" alt="Logo SIEP" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;">
+  <img src="docs/media/logo_siep.png" alt="Logo SIEP" width="180" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;">
+</p>
+
+<p align="center">
+  <em>Automatizando la gestión de inventario y ventas para el emprendimiento venezolano.</em>
 </p>
 
 <div align="center">
@@ -21,9 +25,24 @@
 <p align="center">
   <img src="docs/media/siep_demo.gif" 
        alt="Demostración del sistema SIEP" 
-       width="700" 
-       style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+       width="900" 
+       style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 </p>
+
+---
+
+## 📑 Índice
+
+- [📖 Descripción General](#-descripción-general)
+- [🚀 Stack Tecnológico](#-stack-tecnológico)
+- [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+- [⚙️ Características Clave](#️-características-clave)
+- [📄 Documentos Generados con TCPDF](#-documentos-generados-con-tcpdf)
+- [📊 Progreso del Proyecto](#-progreso-del-proyecto)
+- [🎯 Impacto del Sistema](#-impacto-del-sistema)
+- [📚 Documentación](#-documentación)
+- [🛠️ Instalación y Configuración](#️-instalación-y-configuración)
+- [📜 Licencia](#-licencia)
 
 ---
 
@@ -47,32 +66,10 @@
 
 ---
 
-## 📊 Progreso del Proyecto
-
-| Módulo | Estado | Avance |
-|--------|--------|--------|
-| **Análisis de Requisitos** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Diseño del Sistema (Base de Datos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Diseño de Interfaz (Wireframes)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Usuarios (CRUD + Permisos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Categorías (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Productos (CRUD + Códigos de Barras)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Proveedores (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Clientes (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Ventas (CRUD + Análisis de Costos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo de Compras / Ingresos (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Generación de Reportes PDF (TCPDF)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Dashboard y Estadísticas (Gráficos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Módulo Cliente (E-commerce)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Implementación y Despliegue** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Capacitación del Personal** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-| **Mantenimiento y Soporte** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
-
----
-
 ## 📂 Estructura del Proyecto
 
 ```text
+/
 ├── ajax/                         # Peticiones asíncronas (JavaScript/AJAX)
 ├── Animated Product Card/        # Animaciones y recursos gráficos
 ├── assets/                       # Recursos estáticos (imágenes, íconos)
@@ -101,209 +98,107 @@
 
 ## ⚙️ Características Clave
 
-### 🔐 Módulos Administrativos (Dashboard)
+# 🔐 Módulos Administrativos (Dashboard)
+<table align="center"> <thead> <tr> <th>Módulo</th> <th>Descripción</th> <th>Funcionalidades</th> </tr> </thead> <tbody> <tr> <td><strong>Escritorio</strong></td> <td>Panel de control principal</td> <td>Métricas de compras/ventas, gráficos de los últimos 10 días y 12 meses</td> </tr> <tr> <td><strong>Productos</strong></td> <td>Gestión del catálogo de productos</td> <td>CRUD completo, generador de códigos de barras, control de stock, precios e imágenes</td> </tr> <tr> <td><strong>Categorías</strong></td> <td>Clasificación de productos</td> <td>CRUD, descripción, estado activo/inactivo</td> </tr> <tr> <td><strong>Proveedores</strong></td> <td>Gestión de suministradores</td> <td>CRUD, datos fiscales, contacto, estado activo/inactivo</td> </tr> <tr> <td><strong>Ingresos (Compras)</strong></td> <td>Registro de mercancía comprada</td> <td>CRUD, análisis de costos, <strong>cálculo de IVA</strong>, impuestos, control de documentos fiscales (boleta, factura, ticket)</td> </tr> <tr> <td><strong>Clientes</strong></td> <td>Gestión de compradores</td> <td>CRUD, tipos de documento, dirección, teléfono, email</td> </tr> <tr> <td><strong>Ventas</strong></td> <td>Gestión de transacciones</td> <td>CRUD, análisis de descuentos, <strong>cálculo de IVA</strong>, impuestos, asociación a clientes</td> </tr> <tr> <td><strong>Usuarios</strong></td> <td>Gestión de administradores</td> <td>CRUD, asignación de permisos, control de accesos a módulos</td> </tr> <tr> <td><strong>Permisos</strong></td> <td>Control de roles y accesos</td> <td>CRUD, asignación de permisos específicos a cada usuario (RBAC)</td> </tr> <tr> <td><strong>Consultas de Compras</strong></td> <td>Reportes de compras</td> <td>Filtrado por fechas, exportación a PDF/Excel, reportes de ingresos</td> </tr> <tr> <td><strong>Consultas de Ventas</strong></td> <td>Reportes de ventas</td> <td>Filtrado por fechas y clientes, exportación a PDF/Excel</td> </tr> </tbody> </table>
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>Módulo</th>
-      <th>Descripción</th>
-      <th>Funcionalidades</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Escritorio</strong></td>
-      <td>Panel de control principal</td>
-      <td>Métricas de compras/ventas, gráficos de los últimos 10 días y 12 meses</td>
-    </tr>
-    <tr>
-      <td><strong>Productos</strong></td>
-      <td>Gestión del catálogo de productos</td>
-      <td>CRUD completo, generador de códigos de barras, control de stock, precios e imágenes</td>
-    </tr>
-    <tr>
-      <td><strong>Categorías</strong></td>
-      <td>Clasificación de productos</td>
-      <td>CRUD, descripción, estado activo/inactivo</td>
-    </tr>
-    <tr>
-      <td><strong>Proveedores</strong></td>
-      <td>Gestión de suministradores</td>
-      <td>CRUD, datos fiscales, contacto, estado activo/inactivo</td>
-    </tr>
-    <tr>
-      <td><strong>Ingresos (Compras)</strong></td>
-      <td>Registro de mercancía comprada</td>
-      <td>CRUD, análisis de costos, <strong>cálculo de IVA</strong>, impuestos, control de documentos fiscales (boleta, factura, ticket)</td>
-    </tr>
-    <tr>
-      <td><strong>Clientes</strong></td>
-      <td>Gestión de compradores</td>
-      <td>CRUD, tipos de documento, dirección, teléfono, email</td>
-    </tr>
-    <tr>
-      <td><strong>Ventas</strong></td>
-      <td>Gestión de transacciones</td>
-      <td>CRUD, análisis de descuentos, <strong>cálculo de IVA</strong>, impuestos, asociación a clientes</td>
-    </tr>
-    <tr>
-      <td><strong>Usuarios</strong></td>
-      <td>Gestión de administradores</td>
-      <td>CRUD, asignación de permisos, control de accesos a módulos</td>
-    </tr>
-    <tr>
-      <td><strong>Permisos</strong></td>
-      <td>Control de roles y accesos</td>
-      <td>CRUD, asignación de permisos específicos a cada usuario (RBAC)</td>
-    </tr>
-    <tr>
-      <td><strong>Consultas de Compras</strong></td>
-      <td>Reportes de compras</td>
-      <td>Filtrado por fechas, exportación a PDF/Excel, reportes de ingresos</td>
-    </tr>
-    <tr>
-      <td><strong>Consultas de Ventas</strong></td>
-      <td>Reportes de ventas</td>
-      <td>Filtrado por fechas y clientes, exportación a PDF/Excel</td>
-    </tr>
-  </tbody>
-</table>
+## 🛍️ Módulo Cliente (E-commerce)
 
-### 🛍️ Módulo Cliente (E-commerce)
+Interfaz Intuitiva: Catálogo de productos con imágenes, precios en Bolívares (Bs) y disponibilidad.
 
-*   **Interfaz Intuitiva:** Catálogo de productos con imágenes, precios en Bolívares (Bs) y disponibilidad.
-*   **Menú Categorizado:** Navegación por Lapiceros, Borradores, Sacapuntas, Libretas y Carpetas.
-*   **Carrito de Compras:** Funcionalidad para añadir productos (en desarrollo para integración de pago).
-*   **Registro e Inicio de Sesión:** Autenticación de clientes.
-*   **Contacto Directo:** Enlace a WhatsApp para consultas y compras.
+Menú Categorizado: Navegación por Lapiceros, Borradores, Sacapuntas, Libretas y Carpetas.
 
----
+Carrito de Compras: Funcionalidad para añadir productos (en desarrollo para integración de pago).
 
-## 📄 Documentos Generados con TCPDF
+Registro e Inicio de Sesión: Autenticación de clientes.
 
-El sistema cuenta con un módulo de reportes robusto que utiliza la librería **TCPDF** para generar documentos oficiales y de gestión:
+Contacto Directo: Enlace a WhatsApp para consultas y compras.
 
-*   **Reportes PDF:** Reportes de productos, categorías, ventas, compras, clientes y proveedores.
-*   **Códigos de Barras:** Generación automática de códigos para etiquetado.
-*   **Reportes Excel:** Exportación de datos para análisis externo y contable.
-*   **Impresión Directa:** Opciones de impresión desde el navegador para los reportes generados.
+# 📄 Documentos Generados con TCPDF
 
----
+El sistema cuenta con un módulo de reportes robusto que utiliza la librería TCPDF para generar documentos oficiales y de gestión:
+
+Reportes PDF: Reportes de productos, categorías, ventas, compras, clientes y proveedores.
+
+Códigos de Barras: Generación automática de códigos para etiquetado.
+
+Reportes Excel: Exportación de datos para análisis externo y contable.
+
+Impresión Directa: Opciones de impresión desde el navegador para los reportes generados.
+
+## 📊 Progreso del Proyecto
+Módulo	Estado	Avance
+Análisis de Requisitos	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Diseño del Sistema (Base de Datos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Diseño de Interfaz (Wireframes)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Usuarios (CRUD + Permisos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Categorías (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Productos (CRUD + Códigos de Barras)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Proveedores (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Clientes (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Ventas (CRUD + Análisis de Costos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo de Compras / Ingresos (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Generación de Reportes PDF (TCPDF)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Dashboard y Estadísticas (Gráficos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Módulo Cliente (E-commerce)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Implementación y Despliegue	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Capacitación del Personal	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+Mantenimiento y Soporte	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
 
 ## 🎯 Impacto del Sistema
-
-<table align="center">
-  <thead>
-    <tr>
-      <th>Métrica</th>
-      <th>Antes (Manual)</th>
-      <th>Después (SIEP)</th>
-      <th>Mejora</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Tiempo de registro</strong></td>
-      <td>Horas/Días</td>
-      <td>~2 segundos/consulta</td>
-      <td><strong>-90%</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Errores humanos</strong></td>
-      <td>Alta incidencia</td>
-      <td>Validación automática</td>
-      <td><strong>-85%</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Control de inventario</strong></td>
-      <td>Inexacto</td>
-      <td>Tiempo real</td>
-      <td><strong>Exactitud total</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Generación de reportes</strong></td>
-      <td>Manual (No existía)</td>
-      <td>Automática (PDF/Excel)</td>
-      <td><strong>Optimización total</strong></td>
-    </tr>
-  </tbody>
-</table>
-
----
+<table align="center"> <thead> <tr> <th>Métrica</th> <th>Antes (Manual)</th> <th>Después (SIEP)</th> <th>Mejora</th> </tr> </thead> <tbody> <tr> <td><strong>Tiempo de registro</strong></td> <td>Horas/Días</td> <td>~2 segundos/consulta</td> <td><strong>-90%</strong></td> </tr> <tr> <td><strong>Errores humanos</strong></td> <td>Alta incidencia</td> <td>Validación automática</td> <td><strong>-85%</strong></td> </tr> <tr> <td><strong>Control de inventario</strong></td> <td>Inexacto</td> <td>Tiempo real</td> <td><strong>Exactitud total</strong></td> </tr> <tr> <td><strong>Generación de reportes</strong></td> <td>Manual (No existía)</td> <td>Automática (PDF/Excel)</td> <td><strong>Optimización total</strong></td> </tr> </tbody> </table>
 
 ## 📚 Documentación
 
-Puedes consultar los manuales del sistema en la carpeta `docs/manuals/`:
+Puedes consultar los manuales del sistema en la carpeta docs/manuals/:
 
-<ul>
-  <li>📄 <a href="docs/manuals/MANUAL_DE_USUARIO_FINAL.pdf"><strong>Manual de Usuario</strong></a> - Guía completa para el uso del sistema (Panel Admin y Cliente)</li>
-</ul>
-
----
+📄 Manual de Usuario
 
 ## 🛠️ Instalación y Configuración
 
-### Requisitos Previos
+Requisitos Previos
+<table align="center"> <thead> <tr> <th>Requisito</th> <th>Versión</th> </tr> </thead> <tbody> <tr> <td><strong>PHP</strong></td> <td>8.2 o superior</td> </tr> <tr> <td><strong>MySQL</strong></td> <td>8.0 o superior</td> </tr> <tr> <td><strong>Servidor Web</strong></td> <td>Apache (XAMPP, WAMP o Laragon recomendados)</td> </tr> </tbody> </table>
+Pasos de Instalación
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>Requisito</th>
-      <th>Versión</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>PHP</strong></td>
-      <td>8.2 o superior</td>
-    </tr>
-    <tr>
-      <td><strong>MySQL</strong></td>
-      <td>8.0 o superior</td>
-    </tr>
-    <tr>
-      <td><strong>Servidor Web</strong></td>
-      <td>Apache (XAMPP, WAMP o Laragon recomendados)</td>
-    </tr>
-  </tbody>
-</table>
+**1. Clonar el repositorio**
 
-### Pasos de Instalación
+```bash
+git clone https://github.com/<tu-usuario>/siep.git
+```
 
-<p><strong>1. Clonar el repositorio</strong></p>
-
-<pre><code>git clone https://github.com/&lt;tu-usuario&gt;/siep.git
+```bash
 cd siep
-</code></pre>
+```
 
-<p><strong>2. Configurar el entorno (Base de Datos)</strong></p>
+**2. Configurar el entorno (Base de Datos)**
 
-<p>Edita el archivo <code>config/Conexion.php</code> (o <code>config/global.php</code>) con las credenciales de MySQL:</p>
+Edita el archivo config/Conexion.php (o config/global.php) con las credenciales de MySQL:
 
-<pre><code>DB_HOST=127.0.0.1
+```bash
+ini
+DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=mi_tienda
 DB_USERNAME=root
 DB_PASSWORD=
-</code></pre>
+```
 
-<p><strong>3. Importar la base de datos</strong></p>
+**3. Importar la base de datos**
 
-<p>Importa el archivo <code>data_base_siep.sql</code> (ubicado en la raíz o en <code>files/</code>) usando phpMyAdmin o la línea de comandos:</p>
+Importa el archivo siep.sql (ubicado en la raíz del proyecto) usando phpMyAdmin o la línea de comandos:
 
-<pre><code>mysql -u root -p mi_tienda &lt; "data_base_siep.sql"
-</code></pre>
+```bash
+mysql -u root -p mi_tienda < "siep.sql"
+```
 
-<p><strong>4. Ejecutar el servidor local</strong></p>
+**4. Ejecutar el servidor local**
 
-<p>Coloca la carpeta del proyecto en <code>htdocs</code> (XAMPP) o <code>www</code> (WAMP) y accede desde el navegador:</p>
+Coloca la carpeta del proyecto en htdocs (XAMPP) o www (WAMP) y accede desde el navegador:
 
-<pre><code>http://localhost/siep/
-</code></pre>
-
----
+```bash
+http://localhost/siep/
+```
 
 ## 📜 Licencia
+Distribuido bajo la licencia MIT.
 
-📄 **Ver archivo [LICENSE](LICENSE) para más detalles.**
+📄 Ver archivo LICENSE para más detalles.
