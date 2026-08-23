@@ -104,13 +104,9 @@
 ## 🛍️ Módulo Cliente (E-commerce)
 
 *  **Interfaz Intuitiva:** Catálogo de productos con imágenes, precios en Bolívares (Bs) y disponibilidad.
-
 *  **Menú Categorizado:** Navegación por Lapiceros, Borradores, Sacapuntas, Libretas y Carpetas.
-
 *  **Carrito de Compras:** Funcionalidad para añadir productos (en desarrollo para integración de pago).
-
 *  **Registro e Inicio de Sesión:** Autenticación de clientes.
-
 *  **Contacto Directo:** Enlace a WhatsApp para consultas y compras.
 
 
@@ -124,23 +120,25 @@ El sistema cuenta con un módulo de reportes robusto que utiliza la librería TC
 *   **Impresión de Tickets de Compra y Venta:** Opciones de impresión desde el navegador para los reportes generados.
 
 ## 📊 Progreso del Proyecto
-Módulo	Estado	Avance
-Análisis de Requisitos	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Diseño del Sistema (Base de Datos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Diseño de Interfaz (Wireframes)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Usuarios (CRUD + Permisos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Categorías (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Productos (CRUD + Códigos de Barras)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Proveedores (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Clientes (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Ventas (CRUD + Análisis de Costos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo de Compras / Ingresos (CRUD)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Generación de Reportes PDF (TCPDF)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Dashboard y Estadísticas (Gráficos)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Módulo Cliente (E-commerce)	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Implementación y Despliegue	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Capacitación del Personal	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
-Mantenimiento y Soporte	✅ Completado	https://img.shields.io/badge/-100%2525-brightgreen
+
+| Módulo | Estado | Avance |
+|--------|--------|--------|
+| **Análisis de Requisitos** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Diseño del Sistema (Base de Datos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Diseño de Interfaz (Wireframes)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Usuarios (CRUD + Permisos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Categorías (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Productos (CRUD + Códigos de Barras)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Proveedores (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Clientes (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Ventas (CRUD + Análisis de Costos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo de Compras / Ingresos (CRUD)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Generación de Reportes PDF (TCPDF)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Dashboard y Estadísticas (Gráficos)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Módulo Cliente (E-commerce)** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Implementación y Despliegue** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Capacitación del Personal** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| **Mantenimiento y Soporte** | ✅ Completado | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
 
 ## 🎯 Impacto del Sistema
 <table align="center"> <thead> <tr> <th>Métrica</th> <th>Antes (Manual)</th> <th>Después (SIEP)</th> <th>Mejora</th> </tr> </thead> <tbody> <tr> <td><strong>Tiempo de registro</strong></td> <td>Horas/Días</td> <td>~2 segundos/consulta</td> <td><strong>-90%</strong></td> </tr> <tr> <td><strong>Errores humanos</strong></td> <td>Alta incidencia</td> <td>Validación automática</td> <td><strong>-85%</strong></td> </tr> <tr> <td><strong>Control de inventario</strong></td> <td>Inexacto</td> <td>Tiempo real</td> <td><strong>Exactitud total</strong></td> </tr> <tr> <td><strong>Generación de reportes</strong></td> <td>Manual (No existía)</td> <td>Automática (PDF/Excel)</td> <td><strong>Optimización total</strong></td> </tr> </tbody> </table>
