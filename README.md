@@ -118,13 +118,10 @@
 
 El sistema cuenta con un módulo de reportes robusto que utiliza la librería TCPDF para generar documentos oficiales y de gestión:
 
-*  **Reportes PDF:** Reportes de productos, categorías, ventas, compras, clientes y proveedores.
-
-*  **Códigos de Barras:** Generación automática de códigos para etiquetado.
-
-*  **Reportes Excel:** Exportación de datos para análisis externo y contable.
-
-*  **Impresión Directa:** Opciones de impresión desde el navegador para los reportes generados.
+*   **Reportes PDF:** Reportes de productos, categorías, ventas, compras, clientes y proveedores.
+*   **Códigos de Barras:** Generación automática de códigos para etiquetado.
+*   **Reportes Excel:** Exportación de datos para análisis externo y contable.
+*   **Impresión de Tickets de Compra y Venta:** Opciones de impresión desde el navegador para los reportes generados.
 
 ## 📊 Progreso del Proyecto
 Módulo	Estado	Avance
