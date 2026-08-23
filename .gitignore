@@ -1,0 +1,30 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración sensibles (NO subir contraseñas)
+.env
+config/config.php
+config/database.php
+*.sql.bak
+
+# Archivos temporales de PHP y logs
+*.log
+*.tmp
+*.cache
+*.lock
+cache/
+logs/
+temp/
+
+# Carpetas de dependencias (si usas Composer)
+vendor/
+
+# Archivos subidos por usuarios (si aplica)
+files/uploads/
+files/temp/
+
+# Configuración de VS Code (opcional)
+.vscode/
+.idea/
