@@ -148,12 +148,13 @@ El sistema cuenta con un módulo de reportes robusto que utiliza la librería TC
 Puedes consultar los manuales del sistema en la carpeta `docs/manuals/`:
 
 *   📄 [Manual de Usuario](docs/manuals/MANUAL_DE_USUARIO_FINAL.pdf)
+  
 
-## 🛠️ Instalación y Configuración
-
+# 🛠️ Instalación y Configuración
 
 <table align="center"> <thead> <tr> <th>Requisito</th> <th>Versión</th> </tr> </thead> <tbody> <tr> <td><strong>PHP</strong></td> <td>8.2 o superior</td> </tr> <tr> <td><strong>MySQL</strong></td> <td>8.0 o superior</td> </tr> <tr> <td><strong>Servidor Web</strong></td> <td>Apache (XAMPP, WAMP o Laragon recomendados)</td> </tr> </tbody> </table>
-Pasos de Instalación
+
+## Pasos de Instalación
 
 **1. Clonar el repositorio**
 
