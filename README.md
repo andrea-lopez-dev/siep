@@ -103,27 +103,28 @@
 
 ## 🛍️ Módulo Cliente (E-commerce)
 
-Interfaz Intuitiva: Catálogo de productos con imágenes, precios en Bolívares (Bs) y disponibilidad.
+*  **Interfaz Intuitiva:** Catálogo de productos con imágenes, precios en Bolívares (Bs) y disponibilidad.
 
-Menú Categorizado: Navegación por Lapiceros, Borradores, Sacapuntas, Libretas y Carpetas.
+*  **Menú Categorizado:** Navegación por Lapiceros, Borradores, Sacapuntas, Libretas y Carpetas.
 
-Carrito de Compras: Funcionalidad para añadir productos (en desarrollo para integración de pago).
+*  **Carrito de Compras:** Funcionalidad para añadir productos (en desarrollo para integración de pago).
 
-Registro e Inicio de Sesión: Autenticación de clientes.
+*  **Registro e Inicio de Sesión:** Autenticación de clientes.
 
-Contacto Directo: Enlace a WhatsApp para consultas y compras.
+*  **Contacto Directo:** Enlace a WhatsApp para consultas y compras.
+
 
 # 📄 Documentos Generados con TCPDF
 
 El sistema cuenta con un módulo de reportes robusto que utiliza la librería TCPDF para generar documentos oficiales y de gestión:
 
-Reportes PDF: Reportes de productos, categorías, ventas, compras, clientes y proveedores.
+*  **Reportes PDF:** Reportes de productos, categorías, ventas, compras, clientes y proveedores.
 
-Códigos de Barras: Generación automática de códigos para etiquetado.
+*  **Códigos de Barras:** Generación automática de códigos para etiquetado.
 
-Reportes Excel: Exportación de datos para análisis externo y contable.
+*  **Reportes Excel:** Exportación de datos para análisis externo y contable.
 
-Impresión Directa: Opciones de impresión desde el navegador para los reportes generados.
+*  **Impresión Directa:** Opciones de impresión desde el navegador para los reportes generados.
 
 ## 📊 Progreso del Proyecto
 Módulo	Estado	Avance
