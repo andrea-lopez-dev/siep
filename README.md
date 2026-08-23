@@ -92,6 +92,7 @@
 │   │   └── siep_demo.gif         # GIF de demostración
 │   └── manuals/
 │       ├── MANUAL_DE_USUARIO_FINAL.pdf
+├── .gitignore                    # Archivos ignorados por Git (seguridad y limpieza)
 ├── LICENSE                       # Licencia MIT del proyecto
 └── README.md                     # Documentación del proyecto
 ```
