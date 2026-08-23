@@ -156,7 +156,7 @@ Puedes consultar los manuales del sistema en la carpeta docs/manuals/:
 
 ## 🛠️ Instalación y Configuración
 
-Requisitos Previos
+
 <table align="center"> <thead> <tr> <th>Requisito</th> <th>Versión</th> </tr> </thead> <tbody> <tr> <td><strong>PHP</strong></td> <td>8.2 o superior</td> </tr> <tr> <td><strong>MySQL</strong></td> <td>8.0 o superior</td> </tr> <tr> <td><strong>Servidor Web</strong></td> <td>Apache (XAMPP, WAMP o Laragon recomendados)</td> </tr> </tbody> </table>
 Pasos de Instalación
 
@@ -199,7 +199,4 @@ Coloca la carpeta del proyecto en htdocs (XAMPP) o www (WAMP) y accede desde el 
 http://localhost/siep/
 ```
 
-## 📜 Licencia
-Distribuido bajo la licencia MIT.
-
-📄 Ver archivo LICENSE para más detalles.
+📄 **Ver archivo [LICENSE](LICENSE) para más detalles.**
