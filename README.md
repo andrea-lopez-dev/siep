@@ -150,9 +150,9 @@ Mantenimiento y Soporte	✅ Completado	https://img.shields.io/badge/-100%2525-br
 
 ## 📚 Documentación
 
-Puedes consultar los manuales del sistema en la carpeta docs/manuals/:
+Puedes consultar los manuales del sistema en la carpeta `docs/manuals/`:
 
-📄 Manual de Usuario
+*   📄 [Manual de Usuario](docs/manuals/MANUAL_DE_USUARIO_FINAL.pdf)
 
 ## 🛠️ Instalación y Configuración
 
