@@ -106,7 +106,6 @@
 
 *  **Interfaz Intuitiva:** Catálogo de productos con imágenes, precios en Bolívares (Bs) y disponibilidad.
 *  **Menú Categorizado:** Navegación por Lapiceros, Borradores, Sacapuntas, Libretas y Carpetas.
-*  **Carrito de Compras:** Funcionalidad para añadir productos (en desarrollo para integración de pago).
 *  **Registro e Inicio de Sesión:** Autenticación de clientes.
 *  **Contacto Directo:** Enlace a WhatsApp para consultas y compras.
 
